@@ -1,0 +1,95 @@
+#banner {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  position: relative;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+}
+* {
+  margin: 0;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#top {
+  display: flex;
+}
+
+#lowerbanner {
+  position: absolute;
+  bottom: 65%;
+  right: 79%;
+  font-size: 20px;
+  color: whitesmoke;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.content {
+  padding-top: 60px;
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.small {
+  width: 20%;
+}
+
+.big {
+  width: 40%;
+}
+
+ul {
+  list-style-type: none;
+}
+.bottom {
+  text-align: center;
+  background-color: lightcoral;
+  padding: 3%;
+}
